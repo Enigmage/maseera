@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday, My Love</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💌</text></svg>">
+</head>
+<body>
+
+  <!-- Lady Whistledown Intro -->
+  <div id="intro">
+    <div class="ornament">&#10087;</div>
+    <h1 id="intro-title"></h1>
+    <p class="narrator-text" id="narrator-text"></p>
+    <span class="skip-hint" id="skip-hint">Click anywhere to continue &darr;</span>
+  </div>
+
+  <!-- Wax Seal Navigation -->
+  <nav id="seal-nav"></nav>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- Our Story Timeline -->
+    <section id="timeline">
+      <h2 class="section-title">Our Story</h2>
+      <div class="section-divider"><span>&#10087;</span></div>
+      <p class="section-subtitle">A promenade through memory</p>
+      <div class="timeline-container">
+        <div class="timeline-spine"></div>
+        <div id="timeline-track"></div>
+      </div>
+    </section>
+
+    <!-- Love Letters -->
+    <section id="letters">
+      <h2 class="section-title">Love Letters</h2>
+      <div class="section-divider"><span>&#10087;</span></div>
+      <p class="section-subtitle">Sealed with devotion</p>
+      <div class="envelopes-grid" id="envelopes-grid"></div>
+    </section>
+
+    <!-- The Best Version of You -->
+    <section id="portrait">
+      <div class="sparkle-layer"></div>
+      <h2 class="section-title">The Best Version of You</h2>
+      <div class="section-divider"><span>&#10087;</span></div>
+      <p class="section-subtitle">As reported by Lady Whistledown</p>
+      <div class="portrait-notice" id="portrait-notice"></div>
+    </section>
+
+    <!-- Things That Remind Me of You -->
+    <section id="reminders">
+      <h2 class="section-title">Things That Remind Me of You</h2>
+      <div class="section-divider"><span>&#10087;</span></div>
+      <p class="section-subtitle">In every corner of the world</p>
+      <div class="reminders-grid" id="reminders-grid"></div>
+    </section>
+
+    <!-- Finale -->
+    <section id="finale">
+      <div class="sparkle-layer"></div>
+      <div id="candle">
+        <div class="candle-body">
+          <div class="candle-drip d1"></div>
+          <div class="candle-drip d2"></div>
+        </div>
+        <div id="candle-flame" class="candle-flame">
+          <div class="flame-inner"></div>
+        </div>
+        <p class="candle-hint">Click to make a wish</p>
+      </div>
+      <p class="finale-message">Happy Birthday, My Love</p>
+      <p class="finale-sub">Here's to another year of us.</p>
+    </section>
+
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close">&times;</button>
+    <button class="lightbox-arrow lightbox-prev" id="lightbox-prev">&#8592;</button>
+    <img id="lightbox-img" src="" alt="" style="transition: opacity 0.15s ease;">
+    <button class="lightbox-arrow lightbox-next" id="lightbox-next">&#8594;</button>
+    <p class="lightbox-caption" id="lightbox-caption"></p>
+  </div>
+
+  <!-- Music Box -->
+  <button class="music-box" id="music-box" aria-label="Toggle music">&#9835;</button>
+  <audio id="bg-music" loop preload="none"></audio>
+
+  <!-- Rose Petal Container -->
+  <div id="petal-container"></div>
+
+  <!-- Custom cursor dot -->
+  <div id="custom-cursor"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="js/main.js" type="module"></script>
+</body>
+</html>

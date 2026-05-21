@@ -1,0 +1,67 @@
+{
+  "intro": {
+    "title": "A Birthday Announcement",
+    "narrator_text": "Dearest reader, it has come to my attention that a most remarkable woman celebrates her birth this very day. A lady of extraordinary grace, sharp wit, and a beauty that would leave even the ton speechless. If you are reading this, know that you are celebrated beyond measure..."
+  },
+  "timeline": [
+    { "file": "photos/placeholder-1.jpg", "date": "The Beginning", "caption": "Where our story started" },
+    { "file": "photos/placeholder-2.jpg", "date": "First Adventure", "caption": "Exploring the world together" },
+    { "file": "photos/placeholder-3.jpg", "date": "A Perfect Day", "caption": "One of many to remember" },
+    { "file": "photos/placeholder-4.jpg", "date": "Today", "caption": "And many more to come" }
+  ],
+  "envelopes": [
+    {
+      "message": "Every moment with you feels like the grandest ball of the season. You are my favourite dance, my dearest partner, my everything.",
+      "seal_color": "gold",
+      "from": "Yours, always"
+    },
+    {
+      "message": "If Lady Whistledown were to write of us, she would say ours is the greatest love story the ton has ever witnessed.",
+      "seal_color": "rose",
+      "from": "Your devoted admirer"
+    },
+    {
+      "message": "You are the reason I believe in fairy tales, in destiny, in a love that transcends time and place.",
+      "seal_color": "sage",
+      "from": "With all my heart"
+    },
+    {
+      "message": "Happy Birthday, my love. May this year bring you every joy your beautiful heart deserves.",
+      "seal_color": "navy",
+      "from": "Forever yours"
+    }
+  ],
+  "portrait": {
+    "name": "[Her Name]",
+    "notice": "It is with the greatest pleasure that this correspondent brings to the attention of the ton a lady of singular distinction. Miss [Her Name] — whose grace has been remarked upon in every drawing room from here to the furthest reaches of the season — possesses qualities so rare as to defy adequate description. She is possessed of a warmth that makes all who enter her company feel instantly at ease, a laugh that has been known to lift the spirits of even the most melancholy of souls, and an intelligence that is, frankly, rather inconvenient for everyone else in the room. She faces each day with a courage that this writer finds most admirable, and loves with a depth that quite takes one's breath away. In short, dearest reader, she is extraordinary. And she is, without question, the finest person this correspondent has ever had the privilege of observing.",
+    "traits": [
+      { "label": "Warmth", "description": "The kind that fills every room she enters" },
+      { "label": "Courage", "description": "She faces the world without flinching" },
+      { "label": "Wit", "description": "Sharp enough to disarm anyone" },
+      { "label": "Kindness", "description": "Deeper than she will ever admit" },
+      { "label": "Grace", "description": "In everything she does" },
+      { "label": "Heart", "description": "The most generous one I know" }
+    ]
+  },
+  "reminders": [
+    { "icon": "☕", "caption": "Morning coffee, always just right" },
+    { "icon": "🌙", "caption": "Every quiet evening" },
+    { "icon": "📖", "caption": "A good book on a rainy day" },
+    { "icon": "🌸", "caption": "Anything in bloom" },
+    { "icon": "✉️", "caption": "A letter worth keeping" },
+    { "icon": "🕯️", "caption": "Candlelight and soft music" },
+    { "icon": "🌿", "caption": "The smell of something familiar" },
+    { "icon": "🎶", "caption": "That song we both know" }
+  ],
+  "music": {
+    "file": "audio/background.mp3",
+    "label": "Music Box"
+  },
+  "sections": [
+    { "id": "timeline", "label": "Our Story", "icon": "S" },
+    { "id": "letters", "label": "Letters", "icon": "L" },
+    { "id": "portrait", "label": "You", "icon": "Y" },
+    { "id": "reminders", "label": "Reminders", "icon": "R" },
+    { "id": "finale", "label": "Finale", "icon": "F" }
+  ]
+}

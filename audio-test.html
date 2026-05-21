@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head><title>Audio Test</title></head>
+<body>
+  <h1>Audio Test</h1>
+  <button id="play-btn" style="font-size:2rem;padding:1rem 2rem;cursor:pointer;">
+    Click to play typewriter sound
+  </button>
+  <p id="status" style="margin-top:1rem;font-size:1.2rem;"></p>
+
+  <script>
+    const btn = document.getElementById('play-btn');
+    const status = document.getElementById('status');
+
+    btn.addEventListener('click', () => {
+      const audio = new Audio('assets/audio/typewriter-key.mp3');
+      audio.volume = 1.0;
+      status.textContent = 'Attempting to play...';
+
+      audio.play()
+        .then(() => { status.textContent = '✅ Playing!'; })
+        .catch((err) => { status.textContent = '❌ Error: ' + err.message; });
+    });
+  </script>
+</body>
+</html>

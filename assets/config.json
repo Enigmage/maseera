@@ -1,12 +1,15 @@
 {
   "intro": {
-    "title": "Birthday of the most remarkable lady",
+    "title": "A Tribute to the most remarkable lady",
     "narrator_text": "Dearest reader and by reader, I mean you, Maseera, it has come to my attention that today is your birthday. The ton is abuzz. The author is biased. You are, quite simply, the best thing that has happened to a gentleman name Ali. Now scroll down and see for yourself."
   },
   "timeline": [
     { "file": "photos/first.jpg",             "date": "October 2025",    "caption": "The moment I realised I was in serious trouble." },
     { "file": "photos/second.jpg",            "date": "The Lake",        "caption": "The lake was nice. I barely noticed." },
-    { "file": "photos/third.jpg",             "date": "The Concert",     "caption": "We missed the concert. It was the best night anyway. Don't tell the artist." },
+    { "file": "photos/third.jpg",             "date": "The Concert",     "caption": "We missed the candlelight concert. It was the best night anyway." },
+    { "file": "photos/butterchicken.jpg",      "date": "Butter Chicken",  "caption": "When we finally went to the Butter Chicken place suggested by your hinge matches" },
+    { "file": "photos/concert.jpg",            "date": "The Concert",     "caption": "Our first music concert, we were there for one song really but it was fun." },
+    { "file": "photos/dessert-face.jpg",       "date": "Magnolia",        "caption": "Your face when the dessert arrived. I would take you back just to see that look again." },
     { "file": "photos/fourth.jpg",            "date": "First Trip",      "caption": "The legendary blue outfit. The internet is not ready." },
     { "file": "photos/fifth/fifth.jpg",       "date": "Kodaikanal",      "caption": "The best attraction in Kodaikanal." },
     { "file": "photos/sixth-1.jpg",           "date": "Road Trip",       "caption": "Our first road trip. Lake was great, again I did not notice." },
@@ -15,7 +18,7 @@
   ],
   "envelopes": [
     {
-      "message": "I could never get bored of you. You might think that sounds naive — how can you know that, in just six months? But love is a choice. A choice to wake up every day and choose you, through everything. And I choose you. Every single day, without hesitation.",
+      "message": "I could never get bored of you. You might think that sounds naive, how can you know that, in just a few months? But love is a choice. A choice to wake up every day and choose you, through everything. And I choose you. Every single day, without hesitation.",
       "seal_color": "gold",
       "from": "Yours, always"
     },
@@ -65,7 +68,9 @@
     { "icon": "🌕", "caption": "The moon, whenever I look up" },
     { "icon": "📖", "caption": "A good book on a quiet afternoon" },
     { "icon": "🌙", "caption": "A quiet evening, anywhere" },
-    { "icon": "🚌", "caption": "Sleeper buses." }
+    { "icon": "🚌", "caption": "Sleeper buses." },
+    { "icon" : "🍗", "caption": "Butter Chicken, of course." },
+    { "icon": "🍰", "caption": "Cheesecake, and the way we eat it ;)" }
   ],
   "music": {
     "file": "audio/background.mp3",

@@ -1,67 +1,81 @@
 {
   "intro": {
-    "title": "A Birthday Announcement",
-    "narrator_text": "Dearest reader, it has come to my attention that a most remarkable woman celebrates her birth this very day. A lady of extraordinary grace, sharp wit, and a beauty that would leave even the ton speechless. If you are reading this, know that you are celebrated beyond measure..."
+    "title": "Birthday of the most remarkable lady",
+    "narrator_text": "Dearest reader and by reader, I mean you, Maseera, it has come to my attention that today is your birthday. The ton is abuzz. The author is biased. You are, quite simply, the best thing that has happened to a gentleman name Ali. Now scroll down and see for yourself."
   },
   "timeline": [
-    { "file": "photos/placeholder-1.jpg", "date": "The Beginning", "caption": "Where our story started" },
-    { "file": "photos/placeholder-2.jpg", "date": "First Adventure", "caption": "Exploring the world together" },
-    { "file": "photos/placeholder-3.jpg", "date": "A Perfect Day", "caption": "One of many to remember" },
-    { "file": "photos/placeholder-4.jpg", "date": "Today", "caption": "And many more to come" }
+    { "file": "photos/first.jpg",             "date": "October 2025",    "caption": "The moment I realised I was in serious trouble." },
+    { "file": "photos/second.jpg",            "date": "The Lake",        "caption": "The lake was nice. I barely noticed." },
+    { "file": "photos/third.jpg",             "date": "The Concert",     "caption": "We missed the concert. It was the best night anyway. Don't tell the artist." },
+    { "file": "photos/fourth.jpg",            "date": "First Trip",      "caption": "The legendary blue outfit. The internet is not ready." },
+    { "file": "photos/fifth/fifth.jpg",       "date": "Kodaikanal",      "caption": "The best attraction in Kodaikanal." },
+    { "file": "photos/sixth-1.jpg",           "date": "Road Trip",       "caption": "Our first road trip. Lake was great, again I did not notice." },
+    { "file": "photos/seventh/seventh.jpg",   "date": "Her Birthday",    "caption": "My birthday girl, looking like the gift herself." },
+    { "file": "photos/kiss.jpg",              "date": "Her Birthday",    "caption": "Documented proof that she lets me near her." }
   ],
   "envelopes": [
     {
-      "message": "Every moment with you feels like the grandest ball of the season. You are my favourite dance, my dearest partner, my everything.",
+      "message": "I could never get bored of you. You might think that sounds naive — how can you know that, in just six months? But love is a choice. A choice to wake up every day and choose you, through everything. And I choose you. Every single day, without hesitation.",
       "seal_color": "gold",
       "from": "Yours, always"
     },
     {
-      "message": "If Lady Whistledown were to write of us, she would say ours is the greatest love story the ton has ever witnessed.",
+      "message": "I was somewhere far away, willing myself to do something sensible. I could not do it. I just could not stop thinking about you. The moments with you are so special that even a week apart feels like a year. Sometimes I want to be with you so much that it gets physically hard to breathe.",
       "seal_color": "rose",
-      "from": "Your devoted admirer"
+      "from": "The one who cannot stop thinking about you"
     },
     {
-      "message": "You are the reason I believe in fairy tales, in destiny, in a love that transcends time and place.",
+      "message": "Your teethy grin when you bite your lower lip. The way your face lights up mid-conversation. How you bat your eyes at me sometimes in the most playful, ridiculous, completely devastating way. I notice everything, Maseera. I notice all of it.",
       "seal_color": "sage",
-      "from": "With all my heart"
+      "from": "Someone who is absolutely gone for you"
     },
     {
-      "message": "Happy Birthday, my love. May this year bring you every joy your beautiful heart deserves.",
+      "message": "We will grow in our lives and sometimes that might mean staying apart for longer. But I will never stop missing you, even when we are literally together. These are the memories that will keep me going. I hope we create a lot more.",
       "seal_color": "navy",
-      "from": "Forever yours"
+      "from": "Always thinking of you"
+    },
+    {
+      "message": "I wish I was a better writer so I could express every thought of you properly. But alas, this is what you get for now. I do intend to get better, though. That is a promise.",
+      "seal_color": "gold",
+      "from": "Still working on it"
+    },
+    {
+      "message": "Sometimes I worry I am too intense. And then I think I absolutely love this beautiful, cute, funny, amazing girl and I am going to show it. Happy Birthday, Maseera. I am so glad you exist.",
+      "seal_color": "rose",
+      "from": "Ali"
     }
   ],
   "portrait": {
-    "name": "[Her Name]",
-    "notice": "It is with the greatest pleasure that this correspondent brings to the attention of the ton a lady of singular distinction. Miss [Her Name] — whose grace has been remarked upon in every drawing room from here to the furthest reaches of the season — possesses qualities so rare as to defy adequate description. She is possessed of a warmth that makes all who enter her company feel instantly at ease, a laugh that has been known to lift the spirits of even the most melancholy of souls, and an intelligence that is, frankly, rather inconvenient for everyone else in the room. She faces each day with a courage that this writer finds most admirable, and loves with a depth that quite takes one's breath away. In short, dearest reader, she is extraordinary. And she is, without question, the finest person this correspondent has ever had the privilege of observing.",
+    "name": "Maseera",
+    "photo": "photos/sixth-sketch.png",
+    "notice": "It is with considerable bias, which this correspondent will not even attempt to conceal, that I bring to the attention of the ton a lady of quite singular distinction. Miss Maseera, whose laugh has been known to make the author forget what he was saying mid-sentence, possesses a warmth that fills every room before she has even properly entered it. She is funny in a way that catches you off guard, beautiful in a way that is frankly inconvenient, and kind in a way that she will never fully believe about herself. She chose, in September of last year, to give this writer a chance. He has not recovered. Nor does he wish to.",
     "traits": [
-      { "label": "Warmth", "description": "The kind that fills every room she enters" },
-      { "label": "Courage", "description": "She faces the world without flinching" },
-      { "label": "Wit", "description": "Sharp enough to disarm anyone" },
-      { "label": "Kindness", "description": "Deeper than she will ever admit" },
-      { "label": "Grace", "description": "In everything she does" },
+      { "label": "Warmth", "description": "Fills every room before you've entered it" },
+      { "label": "Wit", "description": "Catches you off guard, every time" },
+      { "label": "Kindness", "description": "Deeper than you will ever admit" },
+      { "label": "That Laugh", "description": "Makes the author forget his sentences" },
+      { "label": "Grace", "description": "In everything, even the small things" },
       { "label": "Heart", "description": "The most generous one I know" }
     ]
   },
   "reminders": [
-    { "icon": "☕", "caption": "Morning coffee, always just right" },
-    { "icon": "🌙", "caption": "Every quiet evening" },
-    { "icon": "📖", "caption": "A good book on a rainy day" },
-    { "icon": "🌸", "caption": "Anything in bloom" },
-    { "icon": "✉️", "caption": "A letter worth keeping" },
-    { "icon": "🕯️", "caption": "Candlelight and soft music" },
-    { "icon": "🌿", "caption": "The smell of something familiar" },
-    { "icon": "🎶", "caption": "That song we both know" }
+    { "icon": "🍚", "caption": "Poha. Every single time." },
+    { "icon": "🎶", "caption": "Every love song, without exception" },
+    { "icon": "🍰", "caption": "Every dessert on every menu" },
+    { "icon": "🌕", "caption": "The moon, whenever I look up" },
+    { "icon": "📖", "caption": "A good book on a quiet afternoon" },
+    { "icon": "🌙", "caption": "A quiet evening, anywhere" },
+    { "icon": "🚌", "caption": "Sleeper buses." }
   ],
   "music": {
     "file": "audio/background.mp3",
     "label": "Music Box"
   },
   "sections": [
-    { "id": "timeline", "label": "Our Story", "icon": "S" },
-    { "id": "letters", "label": "Letters", "icon": "L" },
-    { "id": "portrait", "label": "You", "icon": "Y" },
-    { "id": "reminders", "label": "Reminders", "icon": "R" },
-    { "id": "finale", "label": "Finale", "icon": "F" }
+    { "id": "portrait",  "label": "You",       "icon": "Y" },
+    { "id": "timeline",  "label": "Our Story",  "icon": "S" },
+    { "id": "letters",   "label": "Letters",    "icon": "L" },
+    { "id": "reminders", "label": "Reminders",  "icon": "R" },
+    { "id": "finale",    "label": "Finale",     "icon": "F" }
   ]
 }

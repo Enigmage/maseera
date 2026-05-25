@@ -6,7 +6,7 @@ export function initReminders(reminders) {
   reminders.forEach((item, i) => {
     const tile = document.createElement('div');
     tile.className = 'reminder-tile';
-    tile.style.animationDelay = `${i * 0.08}s`;
+    tile.style.transitionDelay = `${i * 0.08}s`;
 
     tile.innerHTML = `
       <div class="reminder-icon">${item.icon}</div>

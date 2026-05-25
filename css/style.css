@@ -453,7 +453,7 @@ section.section-visible > .section-subtitle { opacity: 1; transform: translateY(
 .envelope {
   position: relative;
   width: 100%;
-  padding-top: 70%;
+  padding-top: 90%;
   transition: transform 0.7s cubic-bezier(0.645, 0.045, 0.355, 1.000);
   transform-style: preserve-3d;
 }
@@ -554,8 +554,10 @@ section.section-visible > .section-subtitle { opacity: 1; transform: translateY(
   background:
     linear-gradient(to bottom, var(--vellum), var(--parchment));
   border: 1px solid rgba(160, 80, 112, 0.3);
-  padding: 2rem 1.8rem;
+  padding: 1.4rem 1.5rem;
   box-shadow: 0 8px 30px var(--shadow-warm);
+  overflow-y: auto;
+  justify-content: flex-start;
 }
 
 /* Faint lined paper effect on the message back */
@@ -575,21 +577,22 @@ section.section-visible > .section-subtitle { opacity: 1; transform: translateY(
 
 .envelope-back .message {
   font-family: var(--font-body);
-  font-size: 1.1rem;
+  font-size: 0.92rem;
   font-style: italic;
   color: var(--ink);
   text-align: center;
-  line-height: 1.9;
-  max-width: 88%;
+  line-height: 1.75;
+  max-width: 92%;
   position: relative;
 }
 
 .envelope-back .message-from {
   font-family: var(--font-script);
-  font-size: 1.6rem;
+  font-size: 1.35rem;
   color: var(--sepia-dark);
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   position: relative;
+  text-align: center;
 }
 
 /* ========== MUSIC BOX ========== */
@@ -998,10 +1001,68 @@ section.section-visible > .section-subtitle { opacity: 1; transform: translateY(
 
 .portrait-notice {
   width: 100%;
-  max-width: 720px;
+  max-width: 1100px;
 }
 
-/* Aged broadsheet newspaper styling */
+/* Two-column layout: photo left, notice right */
+.portrait-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 3.5rem;
+  align-items: start;
+  width: 100%;
+}
+
+/* ── Photo frame ── */
+.portrait-photo-wrap {
+  position: relative;
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.portrait-photo-wrap.portrait-revealed {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.portrait-photo-frame {
+  padding: 0.9rem;
+  background: linear-gradient(135deg,
+    #F0C8D8 0%, #C8547A 8%, #F8D0E0 20%,
+    #8B2040 35%, #E0607A 50%, #8B2040 65%,
+    #F8D0E0 80%, #C8547A 92%, #F0C8D8 100%);
+  box-shadow:
+    0 0 0 2px #5C1A30,
+    0 20px 50px rgba(0,0,0,0.6),
+    inset 0 0 0 2px rgba(255,200,220,0.3);
+  position: relative;
+}
+
+.portrait-photo {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  display: block;
+  filter: sepia(10%) contrast(1.05) brightness(0.98);
+}
+
+/* Animated soft glow behind the frame */
+.portrait-photo-glow {
+  position: absolute;
+  inset: -20px;
+  background: radial-gradient(ellipse at center, rgba(200,84,122,0.25) 0%, transparent 70%);
+  z-index: -1;
+  animation: portraitGlow 3s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+@keyframes portraitGlow {
+  0%   { opacity: 0.5; transform: scale(0.97); }
+  100% { opacity: 1;   transform: scale(1.03); }
+}
+
+/* ── Notice paper entrance ── */
 .notice-paper {
   background: var(--vellum);
   border: 1px solid rgba(200,84,122,0.3);
@@ -1010,6 +1071,48 @@ section.section-visible > .section-subtitle { opacity: 1; transform: translateY(
     0 20px 60px rgba(0,0,0,0.5),
     inset 0 0 80px rgba(160,80,112,0.05);
   position: relative;
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity 0.8s ease 0.2s, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+}
+
+.notice-paper.portrait-revealed {
+  opacity: 1;
+  transform: translateX(0);
+}
+/* ── Trait items stagger ── */
+.trait-item {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.trait-item.trait-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive: stack on smaller screens */
+@media (max-width: 900px) {
+  .portrait-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .portrait-photo-wrap {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .portrait-photo-wrap,
+  .notice-paper {
+    transform: translateY(30px);
+  }
+
+  .portrait-photo-wrap.portrait-revealed,
+  .notice-paper.portrait-revealed {
+    transform: translateY(0);
+  }
 }
 
 /* Subtle aged texture overlay */
@@ -1151,10 +1254,20 @@ section.section-visible > .section-subtitle { opacity: 1; transform: translateY(
   box-shadow: 0 4px 16px var(--shadow-warm);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   opacity: 0;
-  animation: bounceIn 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  transform: scale(0.85) translateY(16px);
+  transition: opacity 0.45s ease, transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
   position: relative;
 }
 
+#reminders.section-visible .reminder-tile {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+.reminder-tile:hover {
+  transform: translateY(-5px) rotate(0.5deg);
+  box-shadow: 0 10px 28px var(--shadow-deep);
+}
 .reminder-tile::before {
   content: '';
   position: absolute;

@@ -40,3 +40,23 @@ An interactive, Bridgerton-inspired birthday website with a Victorian-era London
 - Keep JS lightweight — avoid heavy frameworks for fast load on mobile
 - Optimize images before committing (compress to reasonable sizes)
 - Use semantic HTML and accessible markup where possible
+
+## Ali's Voice & Tone
+All written content (captions, letters, reasons, section copy) is written by Ali for Maseera. When writing or editing content, match this voice precisely:
+
+- **Honest and direct** — says exactly what he means, no flowery padding
+- **Warm but not saccharine** — deep feeling without melodrama
+- **Quietly funny** — dry humour, self-aware, teases her gently (the Hinge list, the lakes, the butter chicken)
+- **Specific over generic** — "your teethy grin when you bite your lower lip" not "your beautiful smile"
+- **Slightly self-deprecating** — "I worry I am too intense", "I wish I was a better writer", "He has not recovered. Nor does he wish to."
+- **Present tense intimacy** — writes as if she is reading it right now, addresses her directly as Maseera
+- **Short sentences land harder** — he punches key lines short: "I choose you.", "I notice all of it.", "Nor does he wish to."
+
+Key recurring themes from his letters:
+- Missing her physically when apart — "it gets physically hard to breathe"
+- Noticing specific small things about her — her laugh, the way her face lights up, the eye-batting
+- Love as a daily choice, not just a feeling
+- Teasing her warmly about the Hinge matches butter chicken list
+- The lakes motif — he never notices the lake, only her
+- Her kindness and warmth being things she underestimates about herself
+- He found her in September 2025; considers it the luckiest thing that happened to him

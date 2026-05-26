@@ -63,4 +63,8 @@ function initBounceEntrances() {
       { ease: 'backOut', duration: 0.9 }
     );
   }, { amount: 0.3 });
+
+  inView('.finale-couple-wrap', (el) => {
+    el.classList.add('revealed');
+  }, { amount: 0.2 });
 }

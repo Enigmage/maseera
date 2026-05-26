@@ -51,6 +51,14 @@
       <div class="envelopes-grid" id="envelopes-grid"></div>
     </section>
 
+    <!-- Reasons I Love You -->
+    <section id="reasons">
+      <h2 class="section-title">Reasons I Love You</h2>
+      <div class="section-divider"><span>&#10087;</span></div>
+      <p class="section-subtitle">Turn the cards over</p>
+      <div class="flipcards-grid" id="flipcards-grid"></div>
+    </section>
+
     <!-- Things That Remind Me of You -->
     <section id="reminders">
       <h2 class="section-title">Things That Remind Me of You</h2>
@@ -72,8 +80,12 @@
         </div>
         <p class="candle-hint">Click to make a wish</p>
       </div>
-      <p class="finale-message">Happy Birthday, Maseera</p>
+      <p class="finale-message" id="finale-message">Happy Birthday, Maseera</p>
+      <p class="finale-hidden" id="finale-hidden">There is a bomb in here. Your butt. Your butt's da bomb.</p>
       <p class="finale-sub">I am so glad you exist. Here's to us.</p>
+      <div class="finale-couple-wrap">
+        <video class="finale-couple-video" src="assets/photos/couple.mov" autoplay muted loop playsinline></video>
+      </div>
     </section>
 
   </main>
@@ -85,6 +97,15 @@
     <img id="lightbox-img" src="" alt="" style="transition: opacity 0.15s ease;">
     <button class="lightbox-arrow lightbox-next" id="lightbox-next">&#8594;</button>
     <p class="lightbox-caption" id="lightbox-caption"></p>
+  </div>
+
+  <!-- Easter Egg: Someday Modal -->
+  <div id="someday-modal" class="someday-modal">
+    <div class="someday-inner">
+      <button class="someday-close" id="someday-close">&times;</button>
+      <img src="assets/photos/someday.webp" alt="Someday" class="someday-img">
+      <p class="someday-message">Someday.</p>
+    </div>
   </div>
 
   <!-- Music Box -->

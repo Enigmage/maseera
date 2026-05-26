@@ -1,1 +1,11 @@
 reference/
+
+# macOS
+.DS_Store
+
+# Dev/test files
+audio-test.html
+requirements.md
+
+# Zip archives
+assets/photos/*.zip

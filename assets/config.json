@@ -1,18 +1,22 @@
 {
   "intro": {
     "title": "A Tribute to the most remarkable lady",
-    "narrator_text": "Dearest reader and by reader, I mean you, Maseera, it has come to my attention that today is your birthday. The ton is abuzz. The author is biased. You are, quite simply, the best thing that has happened to a gentleman name Ali. Now scroll down and see for yourself."
+    "narrator_text": "Dearest reader and by reader, I mean you, Maseera, it has come to my attention that today is your birthday. The ton is abuzz. The author is biased. You are, quite simply, the best thing that has happened to the Author. Now scroll down and see for yourself."
   },
   "timeline": [
     { "file": "photos/first.jpg",             "date": "October 2025",    "caption": "The moment I realised I was in serious trouble." },
     { "file": "photos/second.jpg",            "date": "The Lake",        "caption": "The lake was nice. I barely noticed." },
     { "file": "photos/third.jpg",             "date": "The Concert",     "caption": "We missed the candlelight concert. It was the best night anyway." },
+    { "file": "photos/trek.jpg",             "date": "The trek",     "caption": "Our first trek, reached a different kind of pinnacle with you" },
     { "file": "photos/butterchicken.jpg",      "date": "Butter Chicken",  "caption": "When we finally went to the Butter Chicken place suggested by your hinge matches" },
     { "file": "photos/concert.jpg",            "date": "The Concert",     "caption": "Our first music concert, we were there for one song really but it was fun." },
     { "file": "photos/dessert-face.jpg",       "date": "Magnolia",        "caption": "Your face when the dessert arrived. I would take you back just to see that look again." },
+    { "file": "photos/chai.jpg",       "date": "Papas chai",        "caption": "Papa chai, bollywood songs, and the way your face lit up." },
     { "file": "photos/fourth.jpg",            "date": "First Trip",      "caption": "The legendary blue outfit. The internet is not ready." },
+    { "file": "photos/stop.jpg",            "date": "Candid",      "caption": "You said stop taking photos, but I couldn't resist." },
     { "file": "photos/fifth/fifth.jpg",       "date": "Kodaikanal",      "caption": "The best attraction in Kodaikanal." },
     { "file": "photos/sixth-1.jpg",           "date": "Road Trip",       "caption": "Our first road trip. Lake was great, again I did not notice." },
+    { "file": "photos/trad.jpg",           "date": "Traditional",       "caption": "You absolutely slay traditional attire." },
     { "file": "photos/seventh/seventh.jpg",   "date": "Her Birthday",    "caption": "My birthday girl, looking like the gift herself." },
     { "file": "photos/kiss.jpg",              "date": "Her Birthday",    "caption": "Documented proof that she lets me near her." }
   ],
@@ -62,15 +66,33 @@
     ]
   },
   "reminders": [
-    { "icon": "🍚", "caption": "Poha. Every single time." },
-    { "icon": "🎶", "caption": "Every love song, without exception" },
-    { "icon": "🍰", "caption": "Every dessert on every menu" },
-    { "icon": "🌕", "caption": "The moon, whenever I look up" },
-    { "icon": "📖", "caption": "A good book on a quiet afternoon" },
-    { "icon": "🌙", "caption": "A quiet evening, anywhere" },
-    { "icon": "🚌", "caption": "Sleeper buses." },
-    { "icon" : "🍗", "caption": "Butter Chicken, of course." },
-    { "icon": "🍰", "caption": "Cheesecake, and the way we eat it ;)" }
+    { "icon": "🍚", "caption": "Poha" },
+    { "icon": "🎶", "caption": "Every love song" },
+    { "icon": "🍰", "caption": "Every dessert" },
+    { "icon": "🌕", "caption": "The moon" },
+    { "icon": "📖", "caption": "A good book" },
+    { "icon": "🌙", "caption": "A quiet evening" },
+    { "icon": "🚌", "caption": "Sleeper buses and laughter" },
+    { "icon" : "🍗", "caption": "Butter Chicken" },
+    { "icon": "🍰", "caption": "Cheesecake, and the way we eat it ;)" },
+    { "icon": "🎬", "caption": "Bollywood brainrot movies" },
+    { "icon": "⭐", "caption": "The stars" },
+    { "icon": "🍓", "caption": "Strawberry matcha" },
+    { "icon": "🏞️", "caption": "Every lake, every single one" },
+    { "icon": "🌿", "caption": "Every garden" },
+    { "icon": "🌸", "caption": "Pink roses" }
+  ],
+  "reasons": [
+    { "icon": "♦", "text": "Because you can make any room feel brighter just by being there." },
+    { "icon": "♦", "text": "Because the way you make any outfit look good" },
+    { "icon": "♦", "text": "Because the way your face lights up when you eat dessert and the high after" },
+    { "icon": "♦", "text": "Because you are funnier than you realise" },
+    { "icon": "♦", "text": "Because you are so kind in a way that is completely effortless" },
+    { "icon": "♦", "text": "Because every lake we have visited, I have barely seen." },
+    { "icon": "♦", "text": "Because when you laugh I feel like the luckiest person in the world" },
+    { "icon": "♦", "text": "Because I can share parts of myself that I've never shared with anyone else, without judgement" },
+    { "icon": "♦", "text": "Because you make me want to be a better person" },
+    { "icon": "♦", "text": "Because I don't really need a reason, I just do" }
   ],
   "music": {
     "file": "audio/background.mp3",
